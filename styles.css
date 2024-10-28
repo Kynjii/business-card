@@ -1,0 +1,73 @@
+body {
+    margin: 20px;
+    
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.card:hover {
+    background: #dda15e;
+    border-bottom: 6px solid #bc6c25;
+    color: #bc6c25;
+    text-shadow: 0px 5px 3px #bc6c25;
+    animation-name: squeeze;
+    animation-duration: 1000ms;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.avatar {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px #99582a;
+    
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #bc6c25;
+    color: #fefae0;
+    border-bottom: 6px solid #dda15e;
+    border-radius: 10px;
+    text-shadow: 0px 5px 3px #99582a;
+    
+   
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+@keyframes squeeze {
+  from {color: #bc6c25;}
+  to {color: #fefae0;}
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
